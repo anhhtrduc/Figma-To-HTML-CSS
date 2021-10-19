@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f6f6f6;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.index {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header-image {
+  margin: 50px 0 0 150px;
+}
+.header-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 40px;
+}
+.header-link {
+  font-size: 16px;
+  color: #4f5665;
+  font-weight: 400;
+  text-decoration: none;
+}
+.header-auth {
+  margin: 50px 127.5px 0 0;
+}
+.auth-in {
+  margin-right: 30px;
+  color: #4f5665;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+.auth-signup {
+  border: 2px solid #f53855;
+  padding: 22.5px 60px;
+  border-radius: 40px;
+}
+.auth-up {
+  color: #f53855;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper-container {
+  position: relative;
+}
+.wrapper-content {
+  margin-left: 150px;
+  width: 100%;
+  max-width: 555px;
+  gap: 0 40px;
+}
+.wrapper-big {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+.wrapper-small {
+  color: #4f5665;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.wrapper-image {
+  margin-right: 83px;
+  transform: translateX(67px);
+}
+.start {
+  display: inline-block;
+  padding: 17.5px 77.5px;
+  border-radius: 10px;
+  background-color: #f53838;
+  cursor: pointer;
+  border: none;
+  position: relative;
+}
+.start:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 90%;
+  background: rgba(245, 56, 56, 0.35);
+  filter: blur(54px);
+  border-radius: 10px;
+  transform: translate(-50%, 50%);
+  z-index: -1;
+}
+.started {
+  max-width: 250px;
+  color: white;
+  font-weight: 700;
+}
